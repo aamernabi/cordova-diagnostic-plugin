@@ -83,9 +83,9 @@
             <string>This app requires Bluetooth access to function properly.</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSBluetoothAlwaysUsageDescription">
             <string>This app requires constant Bluetooth access to function properly.</string>
-        </config-file>
+        </config-file> -->
         <!--END_MODULE BLUETOOTH-->
 
         <!--BEGIN_MODULE WIFI-->
@@ -120,13 +120,13 @@
         <framework src="PhotosUI.framework" />
         <framework src="AVFoundation.framework" />
 
-        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
             <string>This app requires camera access to function properly.</string>
-        </config-file>
+        </config-file> -->
 
-        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>This app requires photo library access to function properly.</string>
-        </config-file>
+        </config-file> -->
 
         <header-file src="src/ios/Diagnostic_Camera.h" />
         <source-file src="src/ios/Diagnostic_Camera.m" />
@@ -164,9 +164,9 @@
 
         <framework src="AVFoundation.framework" />
 
-        <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
             <string>This app requires microphone access to function properly.</string>
-        </config-file>
+        </config-file> -->
 
         <header-file src="src/ios/Diagnostic_Microphone.h" />
         <source-file src="src/ios/Diagnostic_Microphone.m" />
@@ -187,9 +187,9 @@
         <framework src="Contacts.framework" />
         <framework src="AddressBook.framework" />
 
-        <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSContactsUsageDescription">
             <string>This app requires contacts access to function properly.</string>
-        </config-file>
+        </config-file> -->
 
         <header-file src="src/ios/Diagnostic_Contacts.h" />
         <source-file src="src/ios/Diagnostic_Contacts.m" />
@@ -209,9 +209,9 @@
 
         <framework src="EventKit.framework" />
 
-        <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
             <string>This app requires calendar access to function properly.</string>
-        </config-file>
+        </config-file> -->
 
         <header-file src="src/ios/Diagnostic_Calendar.h" />
         <source-file src="src/ios/Diagnostic_Calendar.m" />
@@ -231,9 +231,9 @@
 
         <framework src="EventKit.framework" />
 
-        <config-file target="*-Info.plist" parent="NSRemindersUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSRemindersUsageDescription">
             <string>This app requires reminders access to function properly.</string>
-        </config-file>
+        </config-file> -->
         
         <header-file src="src/ios/Diagnostic_Reminders.h" />
         <source-file src="src/ios/Diagnostic_Reminders.m" />
@@ -253,9 +253,9 @@
 
         <framework src="CoreMotion.framework" />
 
-        <config-file target="*-Info.plist" parent="NSMotionUsageDescription">
+<!--         <config-file target="*-Info.plist" parent="NSMotionUsageDescription">
             <string>This app requires motion detection access to function properly.</string>
-        </config-file>
+        </config-file> -->
 
         <header-file src="src/ios/Diagnostic_Motion.h" />
         <source-file src="src/ios/Diagnostic_Motion.m" />
